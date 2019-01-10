@@ -12,7 +12,7 @@ import json
  
 updater = Updater(token='793411044:AAGoUYvXBKapPWA8x6LWbqdY6FMu90PUswc') 
 dispatcher = updater.dispatcher 
- 
+#
 smile= emojize(":smile:", use_aliases=True) 
  
 target = [] 
