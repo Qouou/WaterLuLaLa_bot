@@ -87,12 +87,25 @@ sudo pip install telepot
 
 ## 未來藍圖
 
-- 更改/etc/rc.local 讓程式一開機就執行
+- 更改/etc/rc.local 讓程式一開機就執行(已完成)
 - 配合今天的溫濕度及氣溫 去增加或減少所需補充水量
 - 利用telegram bot 記錄大家的上線時間  依照上線時間，去做對應規劃
 - 可以自己建立 reminder 提醒每天計畫
 
-
+## rc.local 開機自動啟動
+```
+ sudo nano /etc/rc.local
+ ```
+ ![](https://i.imgur.com/NHDksLY.png)
+ 
+ - 啟動 rc.local
+ - 觀察 rc.local現況
+ ```=
+ sudo systemctl enable rc.local.service 
+ systemctl status rc.local.service
+ ```
+ ![](https://i.imgur.com/5mAwzU4.png)
+ 
 ## 參考資料
 1. 將Telegram_bot設置在pi
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
