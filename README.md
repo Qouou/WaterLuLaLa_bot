@@ -92,7 +92,7 @@ sudo pip install telepot
 - 利用telegram bot 記錄大家的上線時間  依照上線時間，去做對應規劃
 - 可以自己建立 reminder 提醒每天計畫
 
-## rc.local 開機自動啟動(
+## rc.local 開機自動啟動(1/13)
 ```
  sudo nano /etc/rc.local
  ```
