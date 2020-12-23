@@ -42,7 +42,6 @@ Lulala a LSA專題 :baby:
 ### Step 4: Install Telepot on Raspberry Pi
 sudo apt-get install python-pip
 sudo pip install telepot
-![](https://i.imgur.com/yWMn5MG.png)
 
 ---
 
